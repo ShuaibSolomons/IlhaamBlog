@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --brand-color: orange;
+  --secondary-color: white;
+  --primary-color: #F2F2F2;
+}
+
+body {
+  background-color: #F2F2F2;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+a {
+  color: #444444;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.navbar {
+  background: white;
+  padding: 1em;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.5em;
+  width: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .logo div {
+  margin-top: .2em;
+}
+
+.navbar .logo img {
+  width: 40px;
+  margin-right: .5em;
+}
+
+.navbar .logo span {
+  color: var(--brand-color);
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .container .mobile-menu {
+  cursor: pointer;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background-color: #20272E;
+  height: 100vh;
+  padding: 1em;
+}
+
+nav ul.primary-nav {
+  margin-top: 5em;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  text-align: right;
+}
+
+nav li a:hover {
+  font-weight: bold;
+}
+
+nav .mobile-menu-exit {
+  float: right;
+  margin: .5em;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero .left-col .subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: grey;
+  letter-spacing: .3em;
+}
+
+.hero .left-col h1 {
+  font-size: 2.5em;
+  line-height: 1.3em;
+  margin-top: .2em;
+}
+
+.hero .left-col .primary-cta {
+  background-color: var(--brand-color);
+  color: white;
+  text-decoration: none;
+  padding: .6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.hero .left-col .watch-video-cta {
+  display: block;
+  margin-top: 1.5em;
+}
+
+.hero .left-col .watch-video-cta img {
+  margin-right: .5em;
+}
+
+.hero .hero-img {
+  margin-top: 2.5em;
+  width: 400px;
+  border-radius: 1em;
+}
+
+.creed-section {
+  background-color: var(--secondary-color);
+}
+
+.creed-section li {
+  background: var(--primary-color);
+  text-align: center;
+  padding: 2em 1em;
+  width: 80%;
+  margin: 0 auto 2em auto;
+  border-radius: 1em;
+}
+
+.creed-section li img {
+  width: 18em;
+  border-radius: .5em;
+}
+
+.services-section .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.services-section .container ul {
+  margin-bottom: 3em;
+}
+
+.services-section .strategy-cta {
+  list-style-type: circle;
+  margin-left: 3em;
+}
+
+.services-section .belief-cta {
+  list-style-type: circle;
+  margin-left: 3em;
+}
+
+.services-section .motto-cta {
+  margin-left: 3em;
+}
+
+.contact-section {
+  background: black;
+  color: var(--primary-color);
+}
+
+.contact-section .container .first-col a {
+  text-decoration: none;
+  color: white;
+  margin: 1em 0;
+}
+
+.contact-section .container .first-col .about-me-cta {
+  color: var(--brand-color);
+  border: 3px solid var(--brand-color);
+  font-weight: bold;
+  border-radius: 5em;
+  padding: .5em 1em;
+}
+
+.contact-section .container .first-col .about-me-cta:hover {
+  background-color: var(--brand-color);
+  color: white;
+}
+
+.contact-section .container .third-col img {
+  width: 40px;
+  border-radius: 5em;
+}
+
+.contact-section .container .third-col a {
+  margin-right: .5em;
+}
+/*# sourceMappingURL=main.css.map */

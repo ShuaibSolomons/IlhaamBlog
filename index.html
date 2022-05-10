@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Content By Ilhaam</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="container">
+                <a class="logo" href="#">
+                    <img src="assets/lhaam-logo.png" alt="Logo"><div>lhaam<span>Bardien</span></div>
+                </a>
+
+                <img id="mobile-cta" class="mobile-menu" src="assets/menu.svg" alt="Open Menu">
+                
+                <nav>
+                    <img id="mobile-exit" src="assets/exit.svg" alt="" class="mobile-menu-exit">
+                    <ul class="primary-nav">
+                        <li class="current"><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <section class="hero">
+            <div class="container">
+                <div class="left-col">
+                    <p class="subhead">
+                        Content Writer
+                    </p>
+                    <h1>Ilhaam Bardien</h1>
+                    <div class="hero-cta">
+                        <a href="#" class="primary-cta">Try my service</a>
+                        <a href="#" class="watch-video-cta">
+                            <img src="assets/watch.svg" alt="Watch my service">See my work
+                        </a>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <img src="assets/profileImage.jpg" class="hero-img" alt="Profile Image">
+                </div>
+            </div>
+        </section>
+
+        <section class="creed-section">
+            <div class="container">
+                <ul>
+                    <li>
+                        <h2>
+                            Excellence
+                        </h2>
+                        <p>
+                            You can expect nothing but top quality content. No matter what it takes.
+                        </p>
+                        <img src="assets/image1.jpg" alt="First Image">
+
+                    </li>
+                    <li>
+                        <h2>
+                            Professionalism
+                        </h2>
+                        <p>
+                            Professionalism is guaranteed.
+                        </p>
+                        <img src="assets/image2.jpg" alt="First Image">
+
+                    </li>
+                    <li>
+                        <h2>
+                            Expertise
+                        </h2>
+                        <p>
+                            With a background in copywriting and an education in media and communications, I expertly craft your content.
+                        </p>
+                        <img src="assets/image3.jpg" alt="First Image">
+
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="services-section">
+            <div class="container">
+                <ul>
+                    <li>
+                        <h2>Strategy</h2>
+                        <ul class="strategy-cta">
+                            <li>Identify audience and competition</li>
+                            <li>Develop a strategy that ensures your brand is filling the gaps in the market</li>
+                            <li>Create content that adds value</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>Belief</h2>
+                        <ul class="belief-cta">
+                            <li>
+                                <blockquote>“The more you tell, the more you sell.”</blockquote>
+                                <cite>- David Ogilvy</cite>
+                            </li>
+                            <li><p>To grow your business, you must show your business. I can help you do that.</p></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>Motto</h2>
+                        <ul class="motto-cta">
+                            <li><p>P<span>eople buy products that add value. Show them the value.</span></p></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="first-col">
+                    <h2>About Me</h2>
+                    <p>Freelance copywriter, with a variety of industry experience in B2B and B2C content.</p>
+                    <a class="about-me-cta" href="#">More About Me</a>
+                </div>
+                <div class="second-col">
+                    <h2>Get In Touch</h2>
+                    <p>ilhaamcontentcreator@gmail.com</p>
+                </div>
+                <div class="third-col">
+                    <h2>Find me on the socials</h2>
+                    <a href="https://www.instagram.com/contentbyilhaam/"><img src="assets/instagram.png" alt="Link to instagram"></a>
+                    <a href="https://www.linkedin.com/in/ilhaam-bardien-digital-communications/"><img src="assets/linkedin.png" alt="Link to linkedin"></a>
+                </div>
+            </div>
+        </section>
+        
+
+
+        <script>
+
+            const mobileBtn = document.getElementById('mobile-cta'),
+                nav = document.querySelector('nav'),
+                mobileBtnExit = document.getElementById('mobile-exit');
+
+            mobileBtn.addEventListener('click', () => {
+                nav.classList.add('menu-btn');
+            });
+
+            mobileBtnExit.addEventListener('click', () => {
+                nav.classList.remove('menu-btn')
+            })
+        </script>
+
+    </body>
+</html>
