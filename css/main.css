@@ -150,6 +150,7 @@ nav .mobile-menu-exit {
 .hero .hero-img {
   margin-top: 2.5em;
   width: 80%;
+  max-width: 450px;
   border-radius: 1em;
 }
 
@@ -162,12 +163,14 @@ nav .mobile-menu-exit {
   text-align: center;
   padding: 2em 1em;
   width: 80%;
+  max-width: 450px;
   margin: 0 auto 2em auto;
   border-radius: 1em;
 }
 
 .creed-section li img {
   width: 90%;
+  max-width: 450px;
   border-radius: .5em;
 }
 
@@ -229,5 +232,103 @@ nav .mobile-menu-exit {
 
 .contact-section .container .third-col a {
   margin-right: .5em;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu, .mobile-menu-exit {
+    display: none;
+  }
+  .navbar .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px auto;
+        grid-template-columns: 180px auto;
+  }
+  .navbar nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin-top: .5em;
+  }
+  .navbar nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar nav a {
+    color: black;
+    font-size: 1em;
+    padding: .1em 1em;
+  }
+  .navbar nav ul.primary-nav {
+    margin: 0;
+  }
+  .navbar nav li .current a {
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .container {
+    width: 1080px;
+    margin: 0 auto;
+  }
+  section {
+    padding: 4em 4em;
+  }
+  .hero .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+  }
+  .hero .container .left-col {
+    margin: 6em 3em 0 5em;
+  }
+  .hero .container .left-col h1 {
+    font-size: 3em;
+    width: 90%;
+  }
+  .hero .container .primary-cta {
+    margin-right: 1em;
+  }
+  .creed-section ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .creed-section ul li {
+    margin-left: 2em;
+  }
+  .services-section .container .test {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .services-section li {
+    margin: 0 1em;
+  }
+  .contact-section ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contact-section ul .first-col p {
+    width: 265px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

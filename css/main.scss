@@ -146,6 +146,7 @@ nav {
     .hero-img {
         margin-top: 2.5em;
         width: 80%;
+        max-width: 450px;
         border-radius: 1em;
     }
 }
@@ -158,10 +159,12 @@ nav {
         text-align: center;
         padding: 2em 1em;
         width: 80%;
+        max-width: 450px;
         margin: 0 auto 2em auto;
         border-radius: 1em;
         img {
             width: 90%;
+            max-width: 450px;
             border-radius: .5em;
         }
     }
@@ -218,6 +221,107 @@ nav {
             }
             a {
                 margin-right: .5em;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-menu, .mobile-menu-exit {
+        display: none;
+    }
+
+    .navbar .container {
+        display: grid;
+        grid-template-columns: 180px auto;
+    }
+
+    .navbar nav {
+        display: flex;
+        justify-content: space-between;
+        background: none;
+        position: unset;
+        height: auto;
+        width: 100%;
+        padding: 0;
+        margin-top: .5em;
+
+        ul {
+            display: flex;
+        }
+
+        a {
+            color: black;
+            font-size: 1em;
+            padding: .1em 1em;
+        }
+
+        ul.primary-nav {
+            margin: 0;
+        }
+
+        li .current a {
+            font-weight: bold;
+        }
+
+    }
+
+}
+
+@media only screen and (min-width: 1080px) {
+    .container {
+        width: 1080px;
+        margin: 0 auto;
+    }
+
+    section {
+        padding: 4em 4em;
+    }
+
+    .hero .container {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+
+        .left-col {
+            margin: 6em 3em 0 5em;
+
+            h1 {
+                font-size: 3em;
+                width: 90%;
+            }
+        }
+
+        .primary-cta {
+            margin-right: 1em;
+        }
+    }
+
+    .creed-section ul {
+        display: flex;
+        li {
+            margin-left: 2em;
+        }
+    }
+
+    .services-section {
+        .container {
+            .test {
+                display: flex;
+            }
+        }
+        li {
+            margin: 0 1em;
+        }
+    }
+
+    .contact-section ul {
+        display: flex;
+        justify-content: space-between;
+
+        .first-col {
+            p {
+                width: 265px;
             }
         }
     }
