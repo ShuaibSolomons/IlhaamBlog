@@ -326,3 +326,25 @@ nav {
         }
     }
 }
+
+@media only screen and (min-width: 1450px) {
+    .container {
+        width: 1300px;
+        margin: 0 auto;
+    }
+
+    .hero {
+        margin: 2em 0;
+        .container {
+            width: 1250px;
+        }
+    }
+
+    .creed-section ul {
+        display: flex;
+        li {
+            margin-right: 4em;
+        }
+    }
+
+}

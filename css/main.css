@@ -331,4 +331,25 @@ nav .mobile-menu-exit {
     width: 265px;
   }
 }
+
+@media only screen and (min-width: 1450px) {
+  .container {
+    width: 1300px;
+    margin: 0 auto;
+  }
+  .hero {
+    margin: 2em 0;
+  }
+  .hero .container {
+    width: 1250px;
+  }
+  .creed-section ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .creed-section ul li {
+    margin-right: 4em;
+  }
+}
 /*# sourceMappingURL=main.css.map */
