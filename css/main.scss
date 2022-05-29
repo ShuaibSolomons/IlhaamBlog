@@ -342,6 +342,14 @@ nav {
             h2 {
                 font-size: 1.8em;
             }
+            .profession {
+                ul {
+                    list-style: '-';
+                    li {
+                        padding-left: 0.3em;
+                    }
+                }
+            }
             .experiences {
                 .work {
                     padding-bottom: .5em;

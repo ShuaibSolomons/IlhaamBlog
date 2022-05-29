@@ -354,6 +354,14 @@ nav .mobile-menu-exit {
   font-size: 1.8em;
 }
 
+.about-section .container .right-col .profession ul {
+  list-style: '-';
+}
+
+.about-section .container .right-col .profession ul li {
+  padding-left: 0.3em;
+}
+
 .about-section .container .right-col .experiences .work {
   padding-bottom: .5em;
 }
