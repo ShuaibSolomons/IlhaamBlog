@@ -312,6 +312,56 @@ nav .mobile-menu-exit {
   margin-right: .5em;
 }
 
+.about-section {
+  text-align: center;
+}
+
+.about-section .container .left-col .image-cropper .profile-pic {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+}
+
+.about-section .container .left-col .social-wrapper {
+  margin-bottom: 5em;
+}
+
+.about-section .container .left-col .social-wrapper img {
+  width: 40px;
+  border-radius: 5em;
+}
+
+.about-section .container .left-col .social-wrapper a {
+  margin-right: .5em;
+}
+
+.about-section .container .left-col .contact-detail .subject-quote {
+  font-style: oblique;
+}
+
+.about-section .container .right-col {
+  text-align: left;
+}
+
+.about-section .container .right-col h1 {
+  font-size: 2.3em;
+  text-align: center;
+}
+
+.about-section .container .right-col h2 {
+  font-size: 1.8em;
+}
+
+.about-section .container .right-col .experiences .work {
+  padding-bottom: .5em;
+}
+
+.about-section .year {
+  margin-top: -1em;
+}
+
 @media only screen and (min-width: 768px) {
   .mobile-menu, .mobile-menu-exit {
     display: none;
@@ -356,6 +406,20 @@ nav .mobile-menu-exit {
   .services-section .container {
     padding-left: 3em;
     padding-right: 3em;
+  }
+  .about-section .container {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .about-section .container .right-col h1 {
+    font-size: 4em;
+  }
+  .about-section .container .right-col .profession ul {
+    -webkit-columns: 2;
+            columns: 2;
+  }
+  .about-section .container .right-col .profession ul li {
+    padding: .5em;
   }
 }
 
@@ -433,6 +497,24 @@ nav .mobile-menu-exit {
   }
   .services-section .container .right-col h1 {
     font-size: 1.7em;
+  }
+  .about-section {
+    margin-top: 5em;
+  }
+  .about-section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .about-section .container .left-col {
+    margin-top: 5em;
+    width: 50%;
+  }
+  .about-section .container .right-col {
+    width: 50%;
   }
   .creed-section ul {
     display: -webkit-box;

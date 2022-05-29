@@ -302,6 +302,58 @@ nav {
     }
 }
 
+//////////////////////////////////////////////////////////
+// About Page
+
+.about-section {
+    text-align: center;
+    .container {
+        .left-col {
+            .image-cropper {
+                .profile-pic {
+                    object-fit: cover;
+                    border-radius: 50%;
+                    height: 400px;
+                    width: 400px;
+                }
+            }
+            .social-wrapper {
+                margin-bottom: 5em;
+                img {
+                    width: 40px;
+                    border-radius: 5em;
+                }
+                a {
+                    margin-right: .5em;
+                }
+            }
+            .contact-detail {
+                .subject-quote {
+                    font-style: oblique;
+                }
+            }
+        }
+        .right-col {
+            text-align: left;
+            h1 {
+                font-size: 2.3em;
+                text-align: center;
+            }
+            h2 {
+                font-size: 1.8em;
+            }
+            .experiences {
+                .work {
+                    padding-bottom: .5em;
+                }
+            }
+        }
+    }
+    .year {
+        margin-top: -1em;
+    }
+}
+
 
 //////////////////////////////////////////////////////////
 
@@ -348,6 +400,26 @@ nav {
 
     .services-section {
         .container {
+            padding-left: 3em;
+            padding-right: 3em;
+        }
+    }
+
+    .about-section {
+        .container {
+            .right-col {
+                h1 {
+                    font-size: 4em;
+                }
+                .profession {
+                    ul {
+                        columns: 2;
+                        li {
+                            padding: .5em;
+                        }
+                    }
+                }
+            }
             padding-left: 3em;
             padding-right: 3em;
         }
@@ -419,6 +491,21 @@ nav {
                 h1 {
                     font-size: 1.7em;
                 }
+                width: 50%;
+            }
+        }
+    }
+
+    .about-section {
+        margin-top: 5em;
+        .container {
+            display: flex;
+            justify-content: space-between;
+            .left-col {
+                margin-top: 5em;
+                width: 50%;
+            }
+            .right-col {
                 width: 50%;
             }
         }
