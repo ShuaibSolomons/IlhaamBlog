@@ -320,8 +320,8 @@ nav .mobile-menu-exit {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
 }
 
 .about-section .container .left-col .social-wrapper {
