@@ -2,12 +2,14 @@
 
 :root {
     --brand-color: orange;
+    --brand-secondary-color: #fcda69;
     --secondary-color: white;
-    --primary-color: #F2F2F2;
+    // --primary-color: #F2F2F2;
+    --primary-color: #fdfdfd
 }
 
 body {
-    background-color: #F2F2F2;
+    background-color: var(--primary-color);
     margin: 0;
     padding: 0;
     font-family: 'Poppins';
@@ -28,6 +30,11 @@ section {
 }
 
 .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
     background: white;
     padding: 1em;
 
@@ -64,6 +71,7 @@ section {
         place-content: space-between;
 
         .mobile-menu {
+            padding-right: 3em;
             cursor: pointer;
         }
     }
@@ -118,36 +126,99 @@ nav {
             letter-spacing: .3em;
         }
 
-        h1 {
-            font-size: 2.5em;
-            line-height: 1.3em;
-            margin-top: .2em;
+        .primary-left-hero {
+            
+            line-height: 2em;
+            margin: 2.5em auto;
+            h1 {
+                font-size: 2.5em;
+            }
+            .pop-word {
+                margin-top: 1.1em;
+            }
         }
+
         .primary-cta {
             background-color: var(--brand-color);
             color: white;
             text-decoration: none;
-            padding: .6em 1.3em;
+            padding: .4em 1em;
             font-size: 1.4em;
             border-radius: 5em;
             font-weight: bold;
             display: inline-block;
+            img {
+                width: .8em;
+                margin-left: .5em;
+            }
         }
 
-        .watch-video-cta {
-            display: block;
-            margin-top: 1.5em;
+        .secondary-cta {
+            color: white;
+            text-decoration: none;
+            padding: .4em 1em;
+            font-size: 1.4em;
+            border-radius: 5em;
+            display: inline-block;
+            color: #20272E;
             img {
-                margin-right: .5em;
+                width: .8em;
+                margin-left: .5em;
             }
+        }
+        .socials {
+            display: none;
         }
     }
     
-    .hero-img {
-        margin-top: 2.5em;
-        width: 80%;
-        max-width: 450px;
-        border-radius: 1em;
+    .right-col {
+        
+        .hero-img {
+            margin-top: 2.5em;
+            width: 80%;
+            max-width: 450px;
+            border-radius: 1em;
+        }
+    }
+
+}
+
+.services-section {
+    background-color: var(--brand-secondary-color);
+    display: block;
+    justify-content: space-between;
+    .left-col {
+        h1 {
+            font-size: 2.2em;
+        }
+    }
+    .right-col {
+        ul {
+            hr {
+                padding: -5em;
+                margin: auto;
+            }
+            .blog-social {
+                list-style-type: '01/';
+
+            }
+            .digital-strategy {
+                list-style-type: '02/';
+            }
+            .marketing-copy {
+                list-style-type: '03/';
+            }
+
+            margin: auto;
+            padding-left: 2em;
+            li {
+                border-top: 1px solid black;
+                padding-left: 2em;
+            }
+            li::marker {
+                font-weight: bold;
+            }
+        }
     }
 }
 
@@ -170,7 +241,7 @@ nav {
     }
 }
 
-.services-section {
+.detail-section {
     .container {
         display: flex;
         justify-content: center;
@@ -183,8 +254,13 @@ nav {
         margin-left: 3em;
     }
     .belief-cta {
-        list-style-type: circle;
+        // list-style-type: circle;
         margin-left: 3em;
+        padding-left: 1.5em;
+        border-left: 1px solid black;
+        cite {
+            margin-left: 2em;
+        }
     }
     .motto-cta {
         margin-left: 3em;
@@ -226,6 +302,9 @@ nav {
     }
 }
 
+
+//////////////////////////////////////////////////////////
+
 @media only screen and (min-width: 768px) {
     .mobile-menu, .mobile-menu-exit {
         display: none;
@@ -248,6 +327,7 @@ nav {
 
         ul {
             display: flex;
+            padding-right: 2em;
         }
 
         a {
@@ -281,8 +361,9 @@ nav {
     .hero .container {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         text-align: left;
-
+        margin: 5em auto;
         .left-col {
             margin: 6em 3em 0 5em;
 
@@ -294,6 +375,45 @@ nav {
 
         .primary-cta {
             margin-right: 1em;
+        }        
+        .socials {
+            display: inline-flex;
+            align-items: center;
+            margin-top: 5em;
+            .social-wrapper {
+                padding-left: 3em;
+            }
+            img {
+                width: 40px;
+                border-radius: 5em;
+            }
+            a {
+                margin-right: .5em;
+            }
+        }
+    }
+
+    .services-section {
+        .container {        
+            display: flex;
+            justify-content: space-between;
+            .left-col {
+                width: 50%;
+                h1 {
+                    letter-spacing: .05em;
+                    font-size: 2.7em;
+                }
+                p {
+                    margin-right: 10em;
+                }
+            }
+            .right-col {
+                margin-top: 2em;
+                h1 {
+                    font-size: 1.7em;
+                }
+                width: 50%;
+            }
         }
     }
 
@@ -304,7 +424,7 @@ nav {
         }
     }
 
-    .services-section {
+    .detail-section {
         .container {
             .test {
                 display: flex;
