@@ -3,15 +3,14 @@
   --brand-color: orange;
   --brand-secondary-color: #fcda69;
   --secondary-color: white;
-  --primary-color: #fdfdfd
-;
+  --primary-color: #fdfdfd ;
 }
 
 body {
   background-color: var(--primary-color);
   margin: 0;
   padding: 0;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 a {
@@ -37,45 +36,32 @@ section {
   background: white;
   padding: 1em;
 }
-
 .navbar .logo {
   text-decoration: none;
   font-weight: bold;
   color: black;
   font-size: 1.5em;
   width: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .navbar .logo div {
-  margin-top: .2em;
+  margin-top: 0.2em;
 }
-
 .navbar .logo img {
   width: 40px;
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
-
 .navbar .logo span {
   color: var(--brand-color);
 }
-
 .navbar nav {
   display: none;
 }
-
 .navbar .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   place-content: space-between;
 }
-
 .navbar .container .mobile-menu {
   padding-right: 3em;
   cursor: pointer;
@@ -95,88 +81,74 @@ nav {
   height: 100vh;
   padding: 1em;
 }
-
 nav ul.primary-nav {
   margin-top: 5em;
 }
-
 nav li a {
   color: white;
   text-decoration: none;
   display: block;
-  padding: .5em;
+  padding: 0.5em;
   text-align: right;
 }
-
 nav li a:hover {
   font-weight: bold;
 }
-
 nav .mobile-menu-exit {
   float: right;
-  margin: .5em;
+  margin: 0.5em;
   cursor: pointer;
 }
 
 .hero {
   text-align: center;
 }
-
 .hero .left-col .subhead {
   text-transform: uppercase;
   font-weight: bold;
   color: grey;
-  letter-spacing: .3em;
+  letter-spacing: 0.3em;
 }
-
 .hero .left-col .primary-left-hero {
   line-height: 2em;
   margin: 2.5em auto;
 }
-
 .hero .left-col .primary-left-hero h1 {
   font-size: 2.5em;
 }
-
 .hero .left-col .primary-left-hero .pop-word {
   margin-top: 1.1em;
 }
-
 .hero .left-col .primary-cta {
   background-color: var(--brand-color);
   color: white;
   text-decoration: none;
-  padding: .4em 1em;
+  padding: 0.4em 1em;
   font-size: 1.4em;
   border-radius: 5em;
   font-weight: bold;
   display: inline-block;
 }
-
 .hero .left-col .primary-cta img {
-  width: .8em;
-  margin-left: .5em;
+  width: 0.8em;
+  margin-left: 0.5em;
 }
-
 .hero .left-col .secondary-cta {
   color: white;
   text-decoration: none;
-  padding: .4em 1em;
+  padding: 0.4em 1em;
   font-size: 1.4em;
   border-radius: 5em;
   display: inline-block;
   color: #20272E;
 }
-
 .hero .left-col .secondary-cta img {
-  width: .8em;
-  margin-left: .5em;
+  width: 0.8em;
+  margin-left: 0.5em;
 }
-
 .hero .left-col .socials {
   display: none;
 }
-
 .hero .right-col .hero-img {
   margin-top: 2.5em;
   width: 80%;
@@ -187,42 +159,32 @@ nav .mobile-menu-exit {
 .services-section {
   background-color: var(--brand-secondary-color);
   display: block;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .services-section .left-col h1 {
   font-size: 2.2em;
 }
-
 .services-section .right-col ul {
   margin: auto;
   padding-left: 2em;
 }
-
 .services-section .right-col ul hr {
   padding: -5em;
   margin: auto;
 }
-
 .services-section .right-col ul .blog-social {
-  list-style-type: '01/';
+  list-style-type: "01/";
 }
-
 .services-section .right-col ul .digital-strategy {
-  list-style-type: '02/';
+  list-style-type: "02/";
 }
-
 .services-section .right-col ul .marketing-copy {
-  list-style-type: '03/';
+  list-style-type: "03/";
 }
-
 .services-section .right-col ul li {
   border-top: 1px solid black;
   padding-left: 2em;
 }
-
 .services-section .right-col ul li::marker {
   font-weight: bold;
 }
@@ -230,7 +192,6 @@ nav .mobile-menu-exit {
 .creed-section {
   background-color: var(--secondary-color);
 }
-
 .creed-section li {
   background: var(--primary-color);
   text-align: center;
@@ -240,41 +201,31 @@ nav .mobile-menu-exit {
   margin: 0 auto 2em auto;
   border-radius: 1em;
 }
-
 .creed-section li img {
   width: 90%;
   max-width: 450px;
-  border-radius: .5em;
+  border-radius: 0.5em;
 }
 
 .detail-section .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .detail-section .container ul {
   margin-bottom: 3em;
 }
-
 .detail-section .strategy-cta {
   list-style-type: circle;
   margin-left: 3em;
 }
-
 .detail-section .belief-cta {
   margin-left: 3em;
   padding-left: 1.5em;
   border-left: 1px solid black;
 }
-
 .detail-section .belief-cta cite {
   margin-left: 2em;
 }
-
 .detail-section .motto-cta {
   margin-left: 3em;
 }
@@ -283,39 +234,33 @@ nav .mobile-menu-exit {
   background: black;
   color: var(--primary-color);
 }
-
 .contact-section .container .first-col a {
   text-decoration: none;
   color: white;
   margin: 1em 0;
 }
-
 .contact-section .container .first-col .about-me-cta {
   color: var(--brand-color);
   border: 3px solid var(--brand-color);
   font-weight: bold;
   border-radius: 5em;
-  padding: .5em 1em;
+  padding: 0.5em 1em;
 }
-
 .contact-section .container .first-col .about-me-cta:hover {
   background-color: var(--brand-color);
   color: white;
 }
-
 .contact-section .container .third-col img {
   width: 40px;
   border-radius: 5em;
 }
-
 .contact-section .container .third-col a {
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
 
 .about-section {
   text-align: center;
 }
-
 .about-section .container .left-col .image-cropper .profile-pic {
   -o-object-fit: cover;
      object-fit: cover;
@@ -323,49 +268,38 @@ nav .mobile-menu-exit {
   height: 300px;
   width: 300px;
 }
-
 .about-section .container .left-col .social-wrapper {
   margin-bottom: 5em;
 }
-
 .about-section .container .left-col .social-wrapper img {
   width: 40px;
   border-radius: 5em;
 }
-
 .about-section .container .left-col .social-wrapper a {
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
-
 .about-section .container .left-col .contact-detail .subject-quote {
   font-style: oblique;
 }
-
 .about-section .container .right-col {
   text-align: left;
 }
-
 .about-section .container .right-col h1 {
   font-size: 2.3em;
   text-align: center;
 }
-
 .about-section .container .right-col h2 {
   font-size: 1.8em;
 }
-
 .about-section .container .right-col .profession ul {
-  list-style: '-';
+  list-style: "-";
 }
-
 .about-section .container .right-col .profession ul li {
   padding-left: 0.3em;
 }
-
 .about-section .container .right-col .experiences .work {
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
 }
-
 .about-section .year {
   margin-top: -1em;
 }
@@ -374,36 +308,30 @@ nav .mobile-menu-exit {
   .mobile-menu, .mobile-menu-exit {
     display: none;
   }
+
   .navbar .container {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 180px auto;
-        grid-template-columns: 180px auto;
+    grid-template-columns: 180px auto;
   }
+
   .navbar nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     background: none;
     position: unset;
     height: auto;
     width: 100%;
     padding: 0;
-    margin-top: .5em;
+    margin-top: 0.5em;
   }
   .navbar nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding-right: 2em;
   }
   .navbar nav a {
     color: black;
     font-size: 1em;
-    padding: .1em 1em;
+    padding: 0.1em 1em;
   }
   .navbar nav ul.primary-nav {
     margin: 0;
@@ -411,10 +339,12 @@ nav .mobile-menu-exit {
   .navbar nav li .current a {
     font-weight: bold;
   }
+
   .services-section .container {
     padding-left: 3em;
     padding-right: 3em;
   }
+
   .about-section .container {
     padding-left: 3em;
     padding-right: 3em;
@@ -423,32 +353,27 @@ nav .mobile-menu-exit {
     font-size: 4em;
   }
   .about-section .container .right-col .profession ul {
-    -webkit-columns: 2;
-            columns: 2;
+    -moz-columns: 2;
+         columns: 2;
   }
   .about-section .container .right-col .profession ul li {
-    padding: .5em;
+    padding: 0.5em;
   }
 }
-
 @media only screen and (min-width: 1080px) {
   .container {
     width: 1080px;
     margin: 0 auto;
   }
+
   section {
     padding: 4em 4em;
   }
+
   .hero .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     text-align: left;
     margin: 5em auto;
   }
@@ -463,12 +388,8 @@ nav .mobile-menu-exit {
     margin-right: 1em;
   }
   .hero .container .socials {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     margin-top: 5em;
   }
   .hero .container .socials .social-wrapper {
@@ -479,21 +400,18 @@ nav .mobile-menu-exit {
     border-radius: 5em;
   }
   .hero .container .socials a {
-    margin-right: .5em;
+    margin-right: 0.5em;
   }
+
   .services-section .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .services-section .container .left-col {
     width: 50%;
   }
   .services-section .container .left-col h1 {
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
     font-size: 2.7em;
   }
   .services-section .container .left-col p {
@@ -506,16 +424,13 @@ nav .mobile-menu-exit {
   .services-section .container .right-col h1 {
     font-size: 1.7em;
   }
+
   .about-section {
     margin-top: 5em;
   }
   .about-section .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .about-section .container .left-col {
     margin-top: 5em;
@@ -524,62 +439,51 @@ nav .mobile-menu-exit {
   .about-section .container .right-col {
     width: 50%;
   }
+
   .creed-section ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .creed-section ul li {
     margin-left: 2em;
   }
+
   .detail-section .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     margin: 5em auto;
   }
   .detail-section .container .test {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .detail-section li {
     margin: 0 1em;
   }
+
   .contact-section ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .contact-section ul .first-col p {
     width: 265px;
   }
 }
-
 @media only screen and (min-width: 1450px) {
   .container {
     width: 1300px;
     margin: 0 auto;
   }
+
   .hero {
     margin: 2em 0;
   }
   .hero .container {
     width: 1250px;
   }
+
   .creed-section ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .creed-section ul li {
     margin-right: 4em;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
