@@ -290,6 +290,16 @@ nav {
                 }
             }
         }
+        .second-col {
+            a {
+                text-decoration: none;
+                color: white;
+                margin: 1em 0;
+                &:hover {
+                    color: var(--brand-color);
+                }
+            }
+        }
         .third-col {
             img {
                 width: 40px;
@@ -362,8 +372,69 @@ nav {
     }
 }
 
+//////////////////////////////////////////////////////////
 
 //////////////////////////////////////////////////////////
+// Blog Page
+
+.blog-categories {
+
+    .container {
+        padding-top: 1em;
+        color: black;
+        display: flex;
+        justify-content: center;
+        
+        h2 {
+            padding-left: 1em;
+        }
+
+        img {
+            width: 20em;
+            height: 22em;
+            object-fit: cover;
+        }
+        ul {
+            .blog-heading {
+                h1 {
+                    text-align: center;
+                    padding: 0 0 1em 1.5em;
+                    text-transform: uppercase;
+                    letter-spacing: 1.5em;
+                    font-size: 28px;
+                    border-bottom-style: solid;
+                }
+            }
+            li {
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+                padding-bottom: 2em;
+                width: 20em;
+                p {
+                    padding: 0 2em 1em 2em;
+                    font-size: 13px;
+                }
+
+                .tips-and-tricks {
+                    border: 1px solid rgb(207, 207, 207);
+                }
+                .real-stories {
+                    border: 1px solid rgb(207, 207, 207);
+                }
+                .work-done {
+                    border: 1px solid rgb(207, 207, 207);
+                }
+            }
+        }
+    }
+}
+
+
+//////////////////////////////////////////////////////////
+
+
 
 @media only screen and (min-width: 768px) {
     .mobile-menu, .mobile-menu-exit {
@@ -547,6 +618,20 @@ nav {
         .first-col {
             p {
                 width: 265px;
+            }
+        }
+    }
+
+    .blog-categories {
+        .container {
+            padding-top: 5em;
+            display: block;
+            .blog-heading {
+                display: none;
+            }
+            ul {
+                display: flex;
+                justify-content: space-between;
             }
         }
     }
