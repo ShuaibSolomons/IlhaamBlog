@@ -489,6 +489,11 @@ nav {
                 padding-left: .7em;
             }
         }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
     
         border-bottom: 1px solid rgb(207, 207, 207);
         padding-top: 1em;
@@ -497,12 +502,8 @@ nav {
         
     }
     img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
         border-radius: .5em;
-        width: 70vw;
+        width: 75vw;
         height: 420px;
         object-fit: cover;
     }
