@@ -420,8 +420,12 @@ nav .mobile-menu-exit {
   padding-left: 0.7em;
 }
 .blog-article-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   border-radius: 0.5em;
-  width: 85vw;
+  width: 75vw;
   height: 480px;
   -o-object-fit: cover;
      object-fit: cover;
