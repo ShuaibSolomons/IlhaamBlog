@@ -113,8 +113,9 @@ nav .mobile-menu-exit {
   line-height: 2em;
   margin: 2.5em auto;
 }
-.hero .left-col .primary-left-hero h1 {
-  font-size: 2.5em;
+.hero .left-col .primary-left-hero p {
+  font-weight: bold;
+  font-size: 3em;
 }
 .hero .left-col .primary-left-hero .pop-word {
   margin-top: 1.1em;
@@ -163,6 +164,16 @@ nav .mobile-menu-exit {
 }
 .services-section .left-col h1 {
   font-size: 2.2em;
+}
+.services-section .left-col .blog-heading {
+  font-weight: bold;
+  font-size: 2.4em;
+}
+.services-section .left-col h2 {
+  font-size: 2.8em;
+}
+.services-section .right-col h2 {
+  font-size: 1.7em;
 }
 .services-section .right-col ul {
   margin: auto;
@@ -436,12 +447,10 @@ nav .mobile-menu-exit {
   .mobile-menu, .mobile-menu-exit {
     display: none;
   }
-
   .navbar .container {
     display: grid;
     grid-template-columns: 180px auto;
   }
-
   .navbar nav {
     display: flex;
     justify-content: space-between;
@@ -467,12 +476,10 @@ nav .mobile-menu-exit {
   .navbar nav li .current a {
     font-weight: bold;
   }
-
   .services-section .container {
     padding-left: 3em;
     padding-right: 3em;
   }
-
   .about-section .container {
     padding-left: 3em;
     padding-right: 3em;
@@ -493,11 +500,9 @@ nav .mobile-menu-exit {
     width: 1080px;
     margin: 0 auto;
   }
-
   section {
     padding: 4em 4em;
   }
-
   .hero .container {
     display: flex;
     justify-content: space-between;
@@ -530,7 +535,6 @@ nav .mobile-menu-exit {
   .hero .container .socials a {
     margin-right: 0.5em;
   }
-
   .services-section .container {
     display: flex;
     justify-content: space-between;
@@ -552,7 +556,6 @@ nav .mobile-menu-exit {
   .services-section .container .right-col h1 {
     font-size: 1.7em;
   }
-
   .about-section {
     margin-top: 5em;
   }
@@ -567,14 +570,12 @@ nav .mobile-menu-exit {
   .about-section .container .right-col {
     width: 50%;
   }
-
   .creed-section ul {
     display: flex;
   }
   .creed-section ul li {
     margin-left: 2em;
   }
-
   .detail-section .container {
     display: flex;
     align-items: center;
@@ -586,7 +587,6 @@ nav .mobile-menu-exit {
   .detail-section li {
     margin: 0 1em;
   }
-
   .contact-section ul {
     display: flex;
     justify-content: space-between;
@@ -594,7 +594,6 @@ nav .mobile-menu-exit {
   .contact-section ul .first-col p {
     width: 265px;
   }
-
   .blog-categories .container {
     padding-top: 5em;
     display: block;
@@ -610,7 +609,6 @@ nav .mobile-menu-exit {
   .blog-categories .container ul li {
     margin: auto;
   }
-
   .blog-categories-highlights .container {
     padding-top: 1em;
   }
@@ -629,7 +627,6 @@ nav .mobile-menu-exit {
   .blog-categories-highlights .container ul a .box-me {
     height: 630px;
   }
-
   .blog-article-section .blog-info-detail {
     padding-left: 4.5em;
   }
@@ -656,14 +653,12 @@ nav .mobile-menu-exit {
     width: 1300px;
     margin: 0 auto;
   }
-
   .hero {
     margin: 2em 0;
   }
   .hero .container {
     width: 1250px;
   }
-
   .creed-section ul {
     display: flex;
   }

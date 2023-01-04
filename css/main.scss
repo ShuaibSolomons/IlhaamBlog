@@ -130,8 +130,9 @@ nav {
             
             line-height: 2em;
             margin: 2.5em auto;
-            h1 {
-                font-size: 2.5em;
+            p {
+                font-weight: bold;
+                font-size: 3em;
             }
             .pop-word {
                 margin-top: 1.1em;
@@ -191,8 +192,20 @@ nav {
         h1 {
             font-size: 2.2em;
         }
+
+        .blog-heading {
+            font-weight: bold;
+            font-size: 2.4em;
+        }
+
+        h2 {
+            font-size: 2.8em;
+        }
     }
     .right-col {
+        h2 {
+            font-size: 1.7em;
+        }
         ul {
             hr {
                 padding: -5em;
